@@ -1,6 +1,20 @@
 ﻿#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
+/*
+Task: For a looped singly linked list of books (fields: title, year),
+implement the functions:
+1) add an element in ascending order of publication year, for
+books of the same year in descending order of title;
+2) remove an element from the head of the list;
+3) cyclically shift the list by k (keyboard input) elements
+to the left;
+4) print the entire list, starting from the smallest, format:
+“Title, year”;
+5) delete the entire list.
+*/
+
 int cnt = 0;
 typedef struct node 
 {
@@ -304,4 +318,5 @@ int main()
 	}
 	return 0;
 }
+
 
